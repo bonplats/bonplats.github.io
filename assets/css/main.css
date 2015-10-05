@@ -2358,58 +2358,6 @@
 				left: 100%;
 			}
 
-
-			.main.onlineShop {
-				padding: 3em 0 3em 0;
-				overflow: hidden;
-			}
-
-				.main.onlineShop .content {
-					-moz-transition: all 1s ease;
-					-webkit-transition: all 1s ease;
-					-ms-transition: all 1s ease;
-					transition: all 1s ease;
-					-moz-transform: translateZ(0);
-					-webkit-transform: translateZ(0);
-					-ms-transform: translateZ(0);
-					transform: translateZ(0);
-					position: relative;
-					width: 35%;
-					display: inline-block;
-					vertical-align: middle;
-				}
-
-				.main.onlineShop.left:after {
-					content: '';
-					display: inline-block;
-					vertical-align: middle;
-					height: 100%;
-				}
-
-				.main.onlineShop.left .content {
-					left: 0;
-				}
-
-				.main.onlineShop.right:before {
-					content: '';
-					display: inline-block;
-					vertical-align: middle;
-					height: 100%;
-				}
-
-				.main.onlineShop.right .content {
-					left: 65%;
-				}
-
-				.main.onlineShop.inactive.left .content {
-					left: 100%;
-				}
-
-				.main.onlineShop.inactive.right .content {
-					left: -35%;
-				}
-
-
 		.main.style3 {
 			text-align: center;
 			padding: 6em 0 6em 0;
@@ -2944,14 +2892,6 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/two.jpg");
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* three */
-	#three {
 		background: url("images/overlay.png"), url("../../images/two.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;

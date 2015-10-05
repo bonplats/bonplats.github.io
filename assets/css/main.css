@@ -3432,7 +3432,9 @@
 				background-size: cover;
 			}
 
-
+			.main.style4 .button.anchored {
+				display: none;
+			}
 
 		/* Header */
 

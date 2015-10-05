@@ -3432,6 +3432,27 @@
 				background-size: cover;
 			}
 
+			.main.style4 {
+				text-align: center;
+				padding: 3em 10px 3em 10px;
+			}
+
+			.main.style4 .button.anchored {
+				display: none;
+			}
+
+			.main.style4 .content {
+				width: 100%;
+				left: 0% !important;
+				text-align: center;
+			}
+
+			.main.style4 .tmp {
+				width: 100%;
+				height: 10em;
+				background-size: cover;
+			}
+
 		/* Header */
 
 			#header {

@@ -28,6 +28,35 @@
 		  ga('send', 'pageview');
 		</script>
 		<!--  end google-analytics Code  -->
+
+		<script>
+var type=navigator.appName
+if (type=="Netscape")
+var lang = navigator.language
+else
+var lang = navigator.userLanguage
+
+file://cut down to first 2 chars of country code
+var lang = lang.substr(0,2)
+
+else if (lang == "ko")
+window.location.replace('index.html')
+// 영어
+if (lang == "en")
+window.location.replace('en/index.html')
+
+// 독일어
+else if (lang == "jp")
+window.location.replace('jp/index.html')
+
+// 위에 언어들 말고 다른언어들
+else
+window.location.replace('en/index.html')
+
+</script>
+
+
+
 	</head>
 	<body class="landing">
 

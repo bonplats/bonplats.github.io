@@ -40,18 +40,24 @@ file://cut down to first 2 chars of country code
 var lang = lang.substr(0,2)
 
 // 영어
-if (lang == "en")
+if (lang == "en"){
 window.location.replace('en/index.html')
+}
 
 // 일본어
-else if (lang == "jp")
+else if (lang == "ja"){
 window.location.replace('jp/index.html')
+}
 
-else if (lang == "ko")
- continue;
+
+else if (lang == "ko"){
+alert("한국어 Message");
+}
+
 // 위에 언어들 말고 다른언어들
-else
+else{
 window.location.replace('en/index.html')
+}
 
 </script>
 

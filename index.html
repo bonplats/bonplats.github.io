@@ -38,20 +38,30 @@ var lang = navigator.userLanguage
 
 file://cut down to first 2 chars of country code
 var lang = lang.substr(0,2)
+alert(lang);
+
 
 // 영어
 if (lang == "en")
 window.location.replace('en/index.html')
+alert("영어 Message");
+
 
 // 일본어
 else if (lang == "jp")
 window.location.replace('jp/index.html')
+alert("일본어 Message");
+
 
 else if (lang == "ko")
+alert("한국어 Message");
+
 
 // 위에 언어들 말고 다른언어들
 else
 window.location.replace('en/index.html')
+alert("그외언어 Message");
+
 
 </script>
 
